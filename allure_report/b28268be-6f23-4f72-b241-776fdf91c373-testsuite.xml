@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:test-suite xmlns:ns2="urn:model.allure.qatools.yandex.ru" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<name>ВыводВозрастаЧеловекаВМесяцах</name>
+	<test-cases>
+		<test-case start="63610725607667" stop="63610725608415" status="passed">
+			<name>Умножение возраста на число месяцев в году</name>
+			<steps>
+				<step start="63610725608085" stop="63610725608101" status="passed">
+					<name>Допустим кадру 20 лет</name>
+					<title>Допустим кадру 20 лет</title>
+				</step>
+				<step start="63610725608399" stop="63610725608415" status="passed">
+					<name>Тогда результат умножения будет равен 240</name>
+					<title>Тогда результат умножения будет равен 240</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Умножение возраста на число месяцев в году"/>
+			</labels>
+		</test-case>
+		<test-case start="63610725608805" stop="63610725609449" status="passed">
+			<name>Умножение возраста на число месяцев в году</name>
+			<steps>
+				<step start="63610725609181" stop="63610725609181" status="passed">
+					<name>Допустим кадру 30.5 лет</name>
+					<title>Допустим кадру 30.5 лет</title>
+				</step>
+				<step start="63610725609417" stop="63610725609449" status="passed">
+					<name>Тогда результат умножения будет равен 366</name>
+					<title>Тогда результат умножения будет равен 366</title>
+				</step>
+			</steps>
+			<labels>
+				<label name="story" value="Умножение возраста на число месяцев в году"/>
+			</labels>
+		</test-case>
+	</test-cases>
+	<labels>
+		<label name="feature" value="ВыводВозрастаЧеловекаВМесяцах"/>
+		<label name="framework" value="vanessa-behavior"/>
+		<label name="language" value="1С"/>
+	</labels>
+</ns2:test-suite>
